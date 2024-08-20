@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+header{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: solid 1px rgb(241, 241, 241);
+    
+}
+
+header h2{
+    color:#d12331
+}
+
+nav{
+    height: 80px;
+    width: 400px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li{
+    list-style: none;
+    padding: 10px;
+    color: #bb5860
+    
+    
+}
+
+.drinks{
+    background-color: rgb(254, 254, 254);
+    height: 400px;
+    width: 100%;
+    margin-top: 80px;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+.boxes{
+ height: 380px;
+ width: 95%;
+ margin: auto;
+ margin-top: 80px;
+ padding: 20px;
+ display: flex;
+}
+
+
+.box {
+    height: 304;
+    min-width: 400px;
+    margin: 20px;
+    border: solid 5px rgb(253, 237, 237);
+    border-radius: 10px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin-top:  35px;
+    font-size: 3rem;
+}
+
+#qado-box{
+    margin-bottom: 80px;
+}
+
+
+#casho-box{
+    margin-bottom: 35px;
+}
+
+
+#quraac{
+    text-align: center;
+    margin-top:  35px;
+    font-size: 3rem;
+}
+
+#qado{
+    text-align: center;
+    margin-top:  100px;
+    font-size: 3rem;
+}
+
+#casho{
+    text-align: center;
+    margin-top:  35px;
+    font-size: 3rem;
+    margin-bottom: 65px;
+}
+
+.sawir{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.hero{
+    background-color: rgb(253, 253, 223);
+    width: 92%;
+    display: flex;
+    margin: auto;
+}
+
+.hero img{
+    margin-right: 24px;
+   width: 100%;
+   
+}
+
+.hero div{
+    padding: 25px;
+    font-size: 5rem;
+    color: gray;
+}
+
+
+.prefect-condition {
+
+    height: 438px;
+    background: linear-gradient(rgba(152, 151, 151, 0.5), rgba(111, 111, 111, 0.5)), url('https://media.cnn.com/api/v1/images/stellar/prod/190710135245-12-waterfront-restaurants.jpg?q=w_3498,h_2296,x_0,y_0,c_fill') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    background-attachment: fixed;
+    
+}
+
+.prefect-condition h2 {
+    color: #2a2a2a;
+    font-size: 3.125rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.prefect-condition p {
+    color: #2b2b2b;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+.yoga-classes {
+
+    height: 355.188px;
+    background: linear-gradient(rgba(152, 151, 151, 0.5), rgba(111, 111, 111, 0.5)), url('https://tb-static.uber.com/prod/image-proc/processed_images/c632660188bdfeaba319cc53db595ff7/16bb0a3ab8ea98cfe8906135767f7bf4.jpeg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    margin-block: 5rem;
+}
+
+
+
+.yoga-box {
+    height: 50%;
+    border-radius: 10px;
+    border: 2px solid #5f6ad4;
+    background-color: #dfdfd8;
+    color: #2a2a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+.btn {
+    padding: 0.9375rem 3.75rem;
+    font-size: 1.25rem;
+    background-color: #06cfae;
+    color: white;
+    border: none;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fafaf6;
+    color:black;
+}
+
+
+
+footer {
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 1.25rem;
+    padding: 2rem;
+}
+
+/* tablet and mobile phones */
+@media(max-width: 768px) {
+
+
+    .desktop-menu{
+        display: none;
+    }
+
+    header {
+        height: 0;
+        /* max-width: 90%; */
+    }
+
+    i {
+        z-index: 11111;
+    }
+
+
+    .mobile-menu {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        background-color: #2b2b2b;
+        inset: 0 0 0 0;
+        color: white;
+        transform: translateX(0%);
+        transition: transform 350ms ease-in-out;
+    }
